@@ -1,0 +1,30 @@
+{
+  "name": "duke-api-wauth",
+  "version": "0.1.0",
+  "description": "A node api boilerplate with authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikeman32/duke-api-wauth.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "boilerplate",
+    "template",
+    "scaffolding"
+  ],
+  "author": "David Isakson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikeman32/duke-api-wauth/issues"
+  },
+  "homepage": "https://github.com/ikeman32/duke-api-wauth#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0"
+  }
+}
