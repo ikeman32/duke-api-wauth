@@ -1,6 +1,5 @@
 const file = require("./file");
 const packagePrompts = require("./packagePrompts");
-// const copyProjectFiles = require("./copyProjectFiles");
 
 //Provide a directory tree fo the new project
 const path = [
@@ -19,9 +18,9 @@ async function startProject() {
   path
     .forEach(dirPath => {
       file.createDir(dirPath);
-    })
+    });
+    
     packagePrompts();
-    // copyProjectFiles();
 }
 
 module.exports = startProject;
