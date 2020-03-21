@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const file = require('./file');
+const copyProjectFiles = require("./copyProjectFiles");
 
 const questions = [
   {
@@ -31,7 +32,7 @@ const questions = [
 async function packagePrompts() {
   inquirer.prompt(questions).then(res => {
     handleResponse(res);
-  });
+  }).then(()=>{copyProjectFiles()});
 }
 
 const handleResponse = ans => {
