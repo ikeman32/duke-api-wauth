@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "description": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikeman32/test.git"
+  },
+  "keywords": [],
+  "author": "David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikeman32/test.git"
+  },
+  "homepage": "https://github.com/ikeman32/test.git",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
