@@ -1,13 +1,15 @@
 const express = require("express");
-const cors = require("cors");
 const helmet = require("helmet");
+const cors = require("cors");
+const morgan = require(`morgan`);
 
 //route to endpoint routers
-const configureRoutes = require("../route.js");
+const configureRoutes = require("../routes/router");
 
 const server = express();
 
 server.use(helmet());
+server.use(morgan("dev"));
 server.use(express.json());
 server.use(cors());
 

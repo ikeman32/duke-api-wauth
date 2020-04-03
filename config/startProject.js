@@ -5,6 +5,7 @@ const packagePrompts = require("./packagePrompts");
 const path = [
   "/NewApiProject",
   "/NewApiProject/api",
+  "/NewApiProject/auth",
   "/NewApiProject/data",
   "/NewApiProject/data/migrations",
   "/NewApiProject/data/seeds",
