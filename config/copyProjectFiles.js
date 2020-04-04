@@ -4,17 +4,17 @@ const template = require('../template');
 
 const copyFrom = [`${template}/LICENSE`, 
     `${template}/README.md`,
-    `${template}/index.js`,
-    `${template}/knexfile.js`,
+    `${template}/index.txt`,
+    `${template}/knexfile.xt`,
     `${template}/env.txt`,
     `${template}/gitignore.txt`,
-    `${template}/api/server.js`,
-    `${template}/auth/auth-router.js`,
-    `${template}/data/migrations/user-migration.js`,
-    `${template}/data/dbconfig.js`,
-    `${template}/middleware/restricted.js`,
-    `${template}/models/auth-model.js`,
-    `${template}/routes/router.js`
+    `${template}/api/server.txt`,
+    `${template}/auth/auth-router.txt`,
+    `${template}/data/migrations/user-migration.txt`,
+    `${template}/data/dbconfig.txt`,
+    `${template}/middleware/restricted.txt`,
+    `${template}/models/auth-model.txt`,
+    `${template}/routes/router.txt`
 ];
 
 const copyTo = ['./NewApiProject/LICENSE', 
