@@ -1,6 +1,6 @@
 {
   "name": "duke-api-wauth",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "A node api boilerplate with authentication.",
   "bin": {
     "duke-api-wauth": "./bin/duke-api-wauth.js"
