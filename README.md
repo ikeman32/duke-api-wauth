@@ -2,13 +2,9 @@
 
 ## How To Install
 
-### yarn
+### npx
 
-`yarn install duke-api-wauth`
-
-### npm
-
-`npm i duke-api-wauth`
+`npx duke-api-wauth`
 
 **About**
 
