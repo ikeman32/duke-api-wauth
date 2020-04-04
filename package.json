@@ -1,9 +1,9 @@
 {
-  "name": "duke-api-wauth",
-  "version": "0.1.7",
+  "name": "dukeapi",
+  "version": "0.2.0",
   "description": "A node api boilerplate with authentication.",
   "bin": {
-    "duke-api-wauth": "./bin/duke-api-wauth.js"
+    "dukeapi": "./bin/dukeapi.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
