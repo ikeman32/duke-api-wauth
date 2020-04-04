@@ -1,5 +1,5 @@
 const file = require('./file');
-const template = require('.${template}');
+const template = require('../template');
 
 
 const copyFrom = [`${template}/LICENSE`, 
