@@ -69,19 +69,19 @@ const handleResponse = ans => {
     },
     homepage: username,
     dependencies: {
-      express: "^4.17.1",
-      knex: "^0.20.8",
+      "express": "^4.17.1",
+      "knex": "^0.20.8",
       "knex-cleaner": "^1.3.0",
-      sqlite3: "^4.1.1",
-      morgan: "^1.10.0",
-      cors: "^2.8.5",
-      dotenv: "^8.2.0",
-      helmet: "^3.22.0",
-      bcryptjs: "^2.4.3",
-      jsonwebtoken: "^8.5.1"
+      "sqlite3": "^4.1.1",
+      "morgan": "^1.10.0",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "helmet": "^3.22.0",
+      "bcryptjs": "^2.4.3",
+      "jsonwebtoken": "^8.5.1"
     },
     devDependencies: {
-      nodemon: "^2.0.2"
+      "nodemon": "^2.0.2"
     }
   };
 
