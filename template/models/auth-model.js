@@ -1,4 +1,4 @@
-const db = require('../database/dbConfig');
+const db = require('../database/dbconfig');
 
 const tblUsers = 'users';//define the users table name
 
