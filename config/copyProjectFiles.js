@@ -1,23 +1,23 @@
 const file = require('./file');
-const template = require('../template');
+const template = require('./template');
 
 
-const copyFrom = [`${template}/LICENSE`, 
-    `${template}/README.md`,
-    `${template}/index.txt`,
-    `${template}/knexfile.xt`,
-    `${template}/env.txt`,
-    `${template}/gitignore.txt`,
-    `${template}/api/server.txt`,
-    `${template}/auth/auth-router.txt`,
-    `${template}/data/migrations/user-migration.txt`,
-    `${template}/data/dbconfig.txt`,
-    `${template}/middleware/restricted.txt`,
-    `${template}/models/auth-model.txt`,
-    `${template}/routes/router.txt`
+const fileContent = [template.license,
+    template.readme,
+    template.indexjs,
+    template.knexfilejs,
+    template.env,
+    template.ignoregit,
+    template.server,
+    template.authrouter,
+    template.migration,
+    template.dbconfig,
+    template.restricted,
+    template.model,
+    template.router
 ];
 
-const copyTo = ['./NewApiProject/LICENSE', 
+const newFile = ['./NewApiProject/LICENSE', 
     './NewApiProject/README.md',
     './NewApiProject/index.js',
     './NewApiProject/knexfile.js',
@@ -33,8 +33,9 @@ const copyTo = ['./NewApiProject/LICENSE',
 ];
 
 function copyProjectFiles (){
-    for(let i = 0; i <= copyFrom.length -1; i++)
-    file.copyFiles(copyFrom[i], copyTo[i]);
+    for(let i = 0; i <= fileContent.length -1; i++){
+        file.createFile(newFile[i], fileContent[i]);
+    }
     
 }
 
