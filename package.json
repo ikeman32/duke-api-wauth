@@ -1,6 +1,6 @@
 {
   "name": "dukeapi",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A node api boilerplate with authentication.",
   "bin": {
     "dukeapi": "./bin/dukeapi.js"
