@@ -14,4 +14,6 @@ You can install dukeapi globally and run it from the command line just type `npm
 
 TODO: Make it so the project folder can be named during the prompts and install api dependencies automatically.
 
+Version: 1.0.1: fixed a typo in the knexfile.js
+
 

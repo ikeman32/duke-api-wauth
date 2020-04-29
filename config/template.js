@@ -30,14 +30,14 @@ const knexfilejs = `module.exports = {
   development: {
     client: "sqlite3",
     connection: {
-      filename: "./database/data.db3",
+      filename: "./data/data.db3",
     },
     useNullAsDefault: true,
     migrations: {
-      directory: "./database/migrations",
+      directory: "./data/migrations",
     },
     seeds: {
-      directory: "./database/seeds",
+      directory: "./data/seeds",
     },
     pool: {
       afterCreate: (conn, done) => {
@@ -49,7 +49,7 @@ const knexfilejs = `module.exports = {
   testing: {
     client: "sqlite3",
     connection: {
-      filename: "./database/test.db3",
+      filename: "./data/test.db3",
     },
     useNullAsDefault: true,
     pool: {
@@ -58,7 +58,7 @@ const knexfilejs = `module.exports = {
       },
     },
     migrations: {
-      directory: "./database/migrations",
+      directory: "./data/migrations",
     },
     seeds: {
       directory: "./database/seeds",
@@ -69,10 +69,10 @@ const knexfilejs = `module.exports = {
     client: "pg",
     connection: process.env.DATABASE_URL,
     migrations: {
-      directory: "./database/migrations",
+      directory: "./data/migrations",
     },
     seeds: {
-      directory: "./database/seeds",
+      directory: "./data/seeds",
     },
   }
 };
